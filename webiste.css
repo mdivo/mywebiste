@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Pinyon+Script&display=swap');
+
+
+/*------------------------------------------------HOME------------------------------------------------*/
+div{
+    transition: all 0.3s;
+
+}
+
+
+
+/*------------HEADER------------*/
+
+
+#header{
+    height: 100%;
+    margin: 0px;
+}
+
+
+
+#MiguelDivo a{
+    font-size: 3rem;
+    font-family: 'Pinyon Script', cursive;
+    color: black;
+    text-decoration: none;
+}
+
+#MiguelDivo a:hover{
+
+    font-weight:bolder;
+    color: rgb(227, 84, 40);
+}
+
+#headerTextLeft{
+    height: 5vh;
+
+}
+
+#header_links{
+    height: 5vh;
+    text-align: center;
+
+}
+ul#header_nav {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 1vh;
+
+}
+  
+li {
+    float: left;
+    display: block;
+    flex: 0 1 auto;
+    list-style-type: none;
+
+}
+
+.currentPageHeader{
+    font-weight: bold;
+}
+  
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+  
+li a:hover {
+    font-weight: 800;
+    color: rgb(227, 84, 40);
+}
+
+
+
+/*------------WELCOME------------*/
+
+#welcome #welcome_row #welcomeLeftBox{
+    height: 40vh;
+}
+
+
+
+#hellotimer_background{
+    background-image: url(homePageResources/SEI_109857227.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: 0vh, 0vh; 
+    transition: all 0.3s;
+    height: 20vh;
+    width: 100%;
+}
+
+
+
+
+.clock{
+
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+    font-size: 1.5rem;
+    padding: 5px 5px;
+    position: relative;
+    display: inline-flex;
+    height: 100%;
+}
+
+
+#welcomeUser{
+    background-color: rgb(144, 144, 181);
+
+}
+
+#latestUpdateRow{
+    height: 20vh;
+}
+
+#latestUpdateText{
+    height: 20vh;
+
+
+}
+#latestUpdateText h1{
+    font-size: 2rem;
+
+
+}
+
+
+#latestUpdateRowImage{
+    background-image: url(homePageResources/testIMG2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    transition: all 0.3s;
+    height: 20vh;
+    width: 50%;
+}
+
+/*------------PROJECTS------------*/
+
+#project #projects_row{
+    height: 50vh;
+}
+
+.mainProjectHeader{
+    font-size: 6rem;
+ 
+    padding-top: 30%;
+}
+
+#projects_background{
+    background-image: url(homePageResources/testIMG.jpg);
+    background-size: cover;
+    transition: all 0.3s;
+    height: 50vh;
+}
+
+#projects_background:hover{
+    filter: invert(1);
+    transition: all 0.3s;
+}
+
+#project_listDIV{
+    height: 50vh;
+    background-color: white;
+}
+
+
+div.ocScrollMenu{
+    overflow-x: auto;
+
+    margin-top: 10vh;
+
+
+}
+
+table{
+	width: 100%;
+	table-layout: fixed;
+    text-align: center;
+    height: 30vh;
+}
+
+table, th, td {
+	vertical-align: top;
+}
+
+
+
+
+table td {
+	border-left: 1px solid black;
+
+}
+table th {
+	border-left: 1px solid black;
+    /* padding-bottom: 10%; */
+}
+
+table td:first-child {
+	border-left: none;
+}
+
+table td:last-child {
+	border-right: none;
+}
+table th:first-child {
+	border-left: none;
+}
+
+table th:last-child {
+	border-right: none;
+}
+
+.tableImg{
+    height: 20vh;
+    margin: 5vh;
+}
+
+
+/*------------POPUPS------------*/
+
+#popupFrank {
+    position: absolute;
+    z-index: 9;
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+    border: 1px solid #ccc1c1;
+    transition: none;
+    box-shadow:1px 8px 25px rgb(55, 39, 39);
+    top: 30%;
+    left: 50%;
+    width: 405px;
+    display: none;
+
+}
+
+#frankVideo{
+    height: 290px;    
+
+}
+
+  
+#mydivheader {
+    padding: 5px;
+    cursor: move;
+    z-index: 10;
+    background-color: rgb(220, 220, 220);
+    color: rgb(74, 74, 74);
+    font-size: 1rem;
+
+}
+
+.title-bar-controls {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    bottom: 5px;
+    left: 6px;
+}
+
+.title-bar-controls button {
+    display: block;
+    height: 12px;
+    width: 12px;
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: none;
+    background-color: #fff;
+    border: 1px solid;
+    cursor: pointer;
+    transition: background-color 50ms ease-out;
+
+}
+
+.title-bar-title {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.title-bar-controls button.red {
+    background-color: #ff5f58;
+    border-color: #e1483f;
+}
+
+
+.title-bar-controls button.red:hover {
+    background-color: #c8453e;
+    border-color: #a0352f;
+}
+
+.title-bar-controls button.yellow {
+    background-color: #ffbe2f;
+    border-color: #e0a028;
+}
+
+.title-bar-controls button.yellow:hover {
+    background-color: #e2a829;
+    border-color: #af7d21;
+}
+
+.title-bar-controls button.green {
+    background-color: #2ac940;
+    border-color: #2bac2d;
+}
+.title-bar-controls button.green:hover {
+    background-color: #22a834;
+    border-color: #248e26;
+}
+
+.title-bar-controls button+button {
+    margin-left: 8px;
+}
+
+
+
+
+/*------------FOOTER------------*/
+
+.wrapper {
+
+    height: 5vh;
+    max-width: 100%; 
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    background-color: white;
+
+}   
+
+.marquee {
+    margin:auto;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 100s linear infinite;
+    padding: 1vh;
+
+
+}
+
+.marquee p {
+    display: inline-block;
+
+}
+
+.footerAltFont{
+    font-family: 'Pinyon Script', cursive;
+}
+
+.footerAltFont2{
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.footerAltFont3{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.footerAltFont4{
+    font-weight: lighter;
+}
+
+  
+@keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-75%, 0, 0);
+    }
+}
+
+/*------------------------------------------------INFO------------------------------------------------*/
+
+/*------------------------------------------------DESIGN------------------------------------------------*/
+
+
+/*------------------------------------------------UPDATES------------------------------------------------*/
+
+
+
+#popupUpdatePage {
+    position: absolute;
+    z-index: 9;
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+    border: 1px solid #ccc1c1;
+    transition: none;
+    box-shadow:1px 8px 25px rgb(55, 39, 39);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+ 
+}
+
+
+#mydivheaderUpdate {
+    padding: 5px;
+    cursor: move;
+    z-index: 10;
+    background-color: rgb(220, 220, 220);
+    color: rgb(74, 74, 74);
+    font-size: 1rem;
+
+}
+
+.popup-main-text{
+    color: rgb(74, 74, 74);
+    font-size: 0.8rem;
+    padding: 10%;
+}
+
+.title-bar-controls-Update {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    bottom: 5px;
+    left: 6px;
+}
+
+.title-bar-controls-Update button {
+    display: block;
+    height: 12px;
+    width: 12px;
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: none;
+    background-color: #fff;
+    border: 1px solid;
+    cursor: pointer;
+    transition: background-color 50ms ease-out;
+
+}
+
+.title-bar-title {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.title-bar-controls-Update button.red {
+    background-color: #ff5f58;
+    border-color: #e1483f;
+}
+
+
+.title-bar-controls-Update button.red:hover {
+    background-color: #c8453e;
+    border-color: #a0352f;
+}
+
+.title-bar-controls-Update button.yellow {
+    background-color: #ffbe2f;
+    border-color: #e0a028;
+}
+
+.title-bar-controls-Update button.yellow:hover {
+    background-color: #e2a829;
+    border-color: #af7d21;
+}
+
+.title-bar-controls-Update button.green {
+    background-color: #2ac940;
+    border-color: #2bac2d;
+}
+.title-bar-controls-Update button.green:hover {
+    background-color: #22a834;
+    border-color: #248e26;
+}
+
+.title-bar-controls-Update button+button {
+    margin-left: 8px;
+}
+
+
+
+/*------------------------------------------------CONTACT------------------------------------------------*/
+
+
+/*------------------------------------------------CODE------------------------------------------------*/
+
+
+/*------------------------------------------------DESIGN------------------------------------------------*/
