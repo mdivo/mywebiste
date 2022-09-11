@@ -24,7 +24,7 @@
                 </div>
                 <div class="title-bar-title">good_evening.mp4</div>
             </div>
-            <video id="frankVideo" controls autoplay > 
+            <video id="frankVideo" controls autoplay onloadstart="this.volume=0.0"> 
                 <source src="homePageResources/1049pm.mp4" type="video/mp4"> 
             </video>
 
@@ -246,7 +246,7 @@
                 
                 setTimeout(showTime, 1000);
 
-                if(h==22 && m==49 && s==00){
+                if(h==13 && m==40 && s==00){
                     dragPOPUP.style.display = "block";
                 }
             }
