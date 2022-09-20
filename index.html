@@ -24,7 +24,7 @@
                 </div>
                 <div class="title-bar-title">good_evening.mp4</div>
             </div>
-            <video id="frankVideo" controls onloadstart="this.volume=0.0"> 
+            <video id="frankVideo" controls autoplay onloadstart="this.volume=0.0"> 
                 <source src="homePageResources/1049pm.mp4" type="video/mp4"> 
             </video>
 
@@ -52,7 +52,7 @@
 
         <div  id="welcome" class="container-fluid">
             <div id="welcome_row" class="row border-bottom bottom-black">
-                <div id="welcomeLeftBox" class="col-sm-6 col-md-8 col-lg-8 order-1 ">Site is still in work-in-progress, thank you for visiting</div>
+                <div id="welcomeLeftBox" class="col-sm-6 col-md-8 col-lg-8 order-1 ">Miguel Divo</div>
 
                 <div class="col-sm-6 col-md-4 col-lg-4 order-2">
 
@@ -94,7 +94,7 @@
 
                 <div id="project_listDIV" class="col-sm-6 col-md-8 col-lg-7 order-2 ">
                     <div class="ocScrollMenu">
-                        <table>
+                        <table class="tableINDEX">
                             <thead>
                                 <tr>
                                     <th>CODE</th>
@@ -105,17 +105,17 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>
+                                    <td class="tdINDEX">
                                         <a href="code.html"><img class="tableImg" src="homePageResources/tableTestImg.png"  ></a>
                                        
                                     </td>
-                                    <td>
+                                    <td class="tdINDEX">
                                         <a href="design.html"><img class="tableImg" src="homePageResources/tableTestImg.png" ></a>
                                     </td>
-                                    <td>
+                                    <td class="tdINDEX">
                                         <a><img class="tableImg" src="homePageResources/tableTestImg.png" ></a>
                                     </td>
-                                    <td>
+                                    <td class="tdINDEX">
                                         <a href="https://linktr.ee/mdivo"><img class="tableImg" src="homePageResources/qrcode_linktr.ee.png" ></a>
                                     </td>
                                 </tr>
@@ -246,7 +246,7 @@
                 
                 setTimeout(showTime, 1000);
 
-                if(h==22 && m==49 && s==00){
+                if(h==13 && m==36 && s==10){
                     dragPOPUP.style.display = "block";
                 }
             }

@@ -223,8 +223,9 @@ table th:last-child {
 }
 
 .tableImg{
-    height: 20vh;
-    margin: 5vh;
+    height: 15vh;
+    width: 15vh;
+    margin-top: 5vh;
 }
 
 
@@ -389,6 +390,177 @@ table th:last-child {
 }
 
 /*------------------------------------------------INFO------------------------------------------------*/
+
+#infoFolder #infoFolder_area{
+    height: 90vh;
+}
+
+#infoTable td {
+	border-left: none;
+
+}
+
+
+
+
+#infoTable{
+	width: 50vh;
+	table-layout: fixed;
+    text-align: center;
+    height: 0;
+    /* background-color: #22a834; */
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#tdInfo {
+	vertical-align: top;
+    margin: 0;
+}
+
+
+.tableImgInfo{
+    height: 15vh;
+
+
+}
+
+
+#popupAboutme, #popupY1Y2Y3, #popupFinalYrProject, #popupGCSE, #popupALEVEL, #popupREADME {
+    position: absolute;
+    z-index: 9;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    border: 1px solid rgb(38, 38, 38);
+    transition: none;
+    box-shadow:1px 8px 25px rgb(55, 39, 39);
+    top: 30%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 377pt;
+ 
+}
+
+#popupY1Y2Y3{
+    top: 60%;
+    left: 18.5%;
+    width: 265pt;
+}
+
+#popupFinalYrProject{
+    width:377pt;
+    left: 85%;
+    top: 65%;
+}
+
+#popupGCSE{
+    width:227pt;
+    left: 50%;
+    top: 22%;
+}
+
+#popupALEVEL{
+    width:302pt;
+    left: 75%;
+    top: 30%;
+}
+#popupREADME{
+    width:400pt;
+    left: 50%;
+    top: 75%;
+}
+
+.popup-main-text-INFO{
+    color: rgb(159, 159, 159);
+    font-size: 0.8rem;
+    padding: 5%;
+}
+
+
+
+
+#mydivheaderAboutMe {
+    padding: 5px;
+    cursor: move;
+    z-index: 10;
+    background-color: rgb(38, 38, 38);
+    color: rgb(159, 159, 159);
+    font-size: 1rem;
+
+}
+
+
+.title-bar-controls-INFO {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    bottom: 5px;
+    left: 6px;
+}
+
+.title-bar-controls-INFO button {
+    display: block;
+    height: 12px;
+    width: 12px;
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: none;
+    background-color: #fff;
+    border: 1px solid;
+    cursor: pointer;
+    transition: background-color 50ms ease-out;
+
+}
+
+.title-bar-title-INFO {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.title-bar-controls-INFO button.red {
+    background-color: #ff5f58;
+    border-color: #e1483f;
+}
+
+
+.title-bar-controls-INFO button.red:hover {
+    background-color: #c8453e;
+    border-color: #a0352f;
+}
+
+.title-bar-controls-INFO button.yellow {
+    background-color: #ffbe2f;
+    border-color: #e0a028;
+}
+
+.title-bar-controls-INFO button.yellow:hover {
+    background-color: #e2a829;
+    border-color: #af7d21;
+}
+
+.title-bar-controls-INFO button.green {
+    background-color: #2ac940;
+    border-color: #2bac2d;
+}
+.title-bar-controls-INFO button.green:hover {
+    background-color: #22a834;
+    border-color: #248e26;
+}
+
+.title-bar-controls-INFO button+button {
+    margin-left: 8px;
+}
+
+
+
+
 
 /*------------------------------------------------DESIGN------------------------------------------------*/
 

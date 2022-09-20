@@ -31,18 +31,125 @@
                 </ul>
             </div>
         </div>    
-   
 
-        <div class="container-fluid">
-            <div class="row border-bottom bottom-black">
 
-            </div>   
+        <div id="popupAboutme" class="rounded">
+            <div id="mydivheaderAboutMe" class="rounded-top">
+                <div class="title-bar-controls-INFO">
+                    <button id="closePopup" title="Close window" class="title-bar-control red"></button>
+                    <button id="minimizePopup" title="Minimize window" class="title-bar-control yellow"></button>
+                    <button id="maxPopUp" title="Maximize window" class="title-bar-control green"></button>
+                </div>
+                <div class="title-bar-title-INFO">aboutme.rtf</div>
+            </div>
+            <img id="aboutmeIMG" src="infoPageResources/aboutme.png" width="500pt">
+            <p></p>
+
         </div>
 
-        <div id="project" class="container-fluid border-bottom border-top border-dark">
-            <div id="projects_row" class="row ">
-                
+        <div id="popupY1Y2Y3" class="rounded">
+            <div id="mydivheaderAboutMe" class="rounded-top">
+                <div class="title-bar-controls-INFO">
+                    <button id="closePopup" title="Close window" class="title-bar-control red"></button>
+                    <button id="minimizePopup" title="Minimize window" class="title-bar-control yellow"></button>
+                    <button id="maxPopUp" title="Maximize window" class="title-bar-control green"></button>
+                </div>
+                <div class="title-bar-title-INFO">Y1 Y2 Y3.rtf</div>
+            </div>
+            <img id="y1y2y3IMG" src="infoPageResources/Y1Y2Y3.png" width="350pt">
+            <p></p>
+            
+        </div>
 
+
+        <div id="popupFinalYrProject" class="rounded">
+            <div id="mydivheaderAboutMe" class="rounded-top">
+                <div class="title-bar-controls-INFO">
+                    <button id="closePopup" title="Close window" class="title-bar-control red"></button>
+                    <button id="minimizePopup" title="Minimize window" class="title-bar-control yellow"></button>
+                    <button id="maxPopUp" title="Maximize window" class="title-bar-control green"></button>
+                </div>
+                <div class="title-bar-title-INFO">final year project.rtf</div>
+            </div>
+            <img id="FYPIMG" src="infoPageResources/finalYrProject.png" width="500pt">
+            <p></p>
+            
+        </div>
+
+        <div id="popupGCSE" class="rounded">
+            <div id="mydivheaderAboutMe" class="rounded-top">
+                <div class="title-bar-controls-INFO">
+                    <button id="closePopup" title="Close window" class="title-bar-control red"></button>
+                    <button id="minimizePopup" title="Minimize window" class="title-bar-control yellow"></button>
+                    <button id="maxPopUp" title="Maximize window" class="title-bar-control green"></button>
+                </div>
+                <div class="title-bar-title-INFO">gcses.rtf</div>
+            </div>
+            <img id="gcseIMG" src="infoPageResources/gcse.png" width="300pt">
+            <p></p>
+            
+        </div>
+        <div id="popupALEVEL" class="rounded">
+            <div id="mydivheaderAboutMe" class="rounded-top">
+                <div class="title-bar-controls-INFO">
+                    <button id="closePopup" title="Close window" class="title-bar-control red"></button>
+                    <button id="minimizePopup" title="Minimize window" class="title-bar-control yellow"></button>
+                    <button id="maxPopUp" title="Maximize window" class="title-bar-control green"></button>
+                </div>
+                <div class="title-bar-title-INFO">a-levels.rtf</div>
+            </div>
+            <img id="alevelIMG" src="infoPageResources/alevel.png" width="400pt">
+            <p></p>
+            
+        </div>
+
+        <div id="popupREADME" class="rounded">
+            <div id="mydivheaderAboutMe" class="rounded-top">
+                <div class="title-bar-controls-INFO">
+                    <button id="closePopup" title="Close window" class="title-bar-control red"></button>
+                    <button id="minimizePopup" title="Minimize window" class="title-bar-control yellow"></button>
+                    <button id="maxPopUp" title="Maximize window" class="title-bar-control green"></button>
+                </div>
+                <div class="title-bar-title-INFO">READ ME!!</div>
+            </div>
+            <p class="popup-main-text-INFO" >
+                This page is still in development, however, this a wizard-of-oz demonstration of what the final page would look like.
+                <br><br>
+                The text file and 3 folder icons in the middle of the screen would be clickable and open up their respectively folders.
+                <br><br>
+                Within each folder, it would contain more clickable text file icons which are the popup windows that are currently on screen. All popups are draggable, can be closed, minimised and maximised.
+                <br><br>
+                Be sure to check the "Updates" page in the near future to know when the page is fully developed.
+                <br><br>
+                Thank you.
+            </p>
+            
+        </div>
+   
+
+
+
+        <div id="infoFolder" class="container-fluid border-bottom ">
+            <div id="infoFolder_area" class="row ">
+                    <table id="infoTable">
+                        <tbody class="tbodyINFO">
+                            <tr class="trINFO">
+                                <td class="tdInfo">
+                                    <a  id="aboutmeIcon"><img class="tableImgInfo" src="infoPageResources/textfileABOUTME.png"  ></a>
+                                   
+                                </td>
+                                <td class="tdInfo">
+                                    <a href="design.html"><img class="tableImgInfo" src="infoPageResources/university.png" ></a>
+                                </td>
+                                <td class="tdInfo">
+                                    <a><img class="tableImgInfo" src="infoPageResources/secondaryschool.png" ></a>
+                                </td>
+                                <td class="tdInfo">
+                                    <a href="https://linktr.ee/mdivo"><img class="tableImgInfo" src="infoPageResources/onlinecourses.png" ></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
             </div>    
         </div>
 
@@ -70,6 +177,311 @@
 
 
         <script type="text/javascript" >
+            
+            //popup
+    
+            dragElement(document.getElementById("popupAboutme"));
+
+            function dragElement(elmnt) {
+                var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+                if (document.getElementById(elmnt.id + "header")) {
+                    /* if present, the header is where you move the DIV from:*/
+                    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+                } else {
+                    /* otherwise, move the DIV from anywhere inside the DIV:*/
+                    elmnt.onmousedown = dragMouseDown;
+                }
+
+                function dragMouseDown(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    // get the mouse cursor position at startup:
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    document.onmouseup = closeDragElement;
+                    // call a function whenever the cursor moves:
+                    document.onmousemove = elementDrag;
+                }
+
+                function elementDrag(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    // calculate the new cursor position:
+                    pos1 = pos3 - e.clientX;
+                    pos2 = pos4 - e.clientY;
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    // set the element's new position:
+                    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+                }
+
+                function closeDragElement() {
+                    /* stop moving when mouse button is released:*/
+                    document.onmouseup = null;
+                    document.onmousemove = null;
+                }
+            }
+
+            dragElement2(document.getElementById("popupY1Y2Y3"));
+
+            function dragElement2(elmnt) {
+                var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+                if (document.getElementById(elmnt.id + "header")) {
+                    /* if present, the header is where you move the DIV from:*/
+                    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+                } else {
+                    /* otherwise, move the DIV from anywhere inside the DIV:*/
+                    elmnt.onmousedown = dragMouseDown;
+                }
+
+                function dragMouseDown(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    // get the mouse cursor position at startup:
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    document.onmouseup = closeDragElement;
+                    // call a function whenever the cursor moves:
+                    document.onmousemove = elementDrag;
+                }
+
+                function elementDrag(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    // calculate the new cursor position:
+                    pos1 = pos3 - e.clientX;
+                    pos2 = pos4 - e.clientY;
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    // set the element's new position:
+                    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+                }
+
+                function closeDragElement() {
+                    /* stop moving when mouse button is released:*/
+                    document.onmouseup = null;
+                    document.onmousemove = null;
+                }
+            }
+
+
+            dragElement3(document.getElementById("popupFinalYrProject"));
+
+            function dragElement3(elmnt) {
+                var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+                if (document.getElementById(elmnt.id + "header")) {
+                    /* if present, the header is where you move the DIV from:*/
+                    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+                } else {
+                    /* otherwise, move the DIV from anywhere inside the DIV:*/
+                    elmnt.onmousedown = dragMouseDown;
+                }
+
+                function dragMouseDown(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    // get the mouse cursor position at startup:
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    document.onmouseup = closeDragElement;
+                    // call a function whenever the cursor moves:
+                    document.onmousemove = elementDrag;
+                }
+
+                function elementDrag(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    // calculate the new cursor position:
+                    pos1 = pos3 - e.clientX;
+                    pos2 = pos4 - e.clientY;
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    // set the element's new position:
+                    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+                }
+
+                function closeDragElement() {
+                    /* stop moving when mouse button is released:*/
+                    document.onmouseup = null;
+                    document.onmousemove = null;
+                }
+            }
+
+
+            dragElement4(document.getElementById("popupGCSE"));
+
+            function dragElement4(elmnt) {
+                var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+                if (document.getElementById(elmnt.id + "header")) {
+                    /* if present, the header is where you move the DIV from:*/
+                    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+                } else {
+                    /* otherwise, move the DIV from anywhere inside the DIV:*/
+                    elmnt.onmousedown = dragMouseDown;
+                }
+
+                function dragMouseDown(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    // get the mouse cursor position at startup:
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    document.onmouseup = closeDragElement;
+                    // call a function whenever the cursor moves:
+                    document.onmousemove = elementDrag;
+                }
+
+                function elementDrag(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    // calculate the new cursor position:
+                    pos1 = pos3 - e.clientX;
+                    pos2 = pos4 - e.clientY;
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    // set the element's new position:
+                    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+                }
+
+                function closeDragElement() {
+                    /* stop moving when mouse button is released:*/
+                    document.onmouseup = null;
+                    document.onmousemove = null;
+                }
+            }
+
+
+            dragElement5(document.getElementById("popupALEVEL"));
+
+            function dragElement5(elmnt) {
+                var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+                if (document.getElementById(elmnt.id + "header")) {
+                    /* if present, the header is where you move the DIV from:*/
+                    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+                } else {
+                    /* otherwise, move the DIV from anywhere inside the DIV:*/
+                    elmnt.onmousedown = dragMouseDown;
+                }
+
+                function dragMouseDown(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    // get the mouse cursor position at startup:
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    document.onmouseup = closeDragElement;
+                    // call a function whenever the cursor moves:
+                    document.onmousemove = elementDrag;
+                }
+
+                function elementDrag(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    // calculate the new cursor position:
+                    pos1 = pos3 - e.clientX;
+                    pos2 = pos4 - e.clientY;
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    // set the element's new position:
+                    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+                }
+
+                function closeDragElement() {
+                    /* stop moving when mouse button is released:*/
+                    document.onmouseup = null;
+                    document.onmousemove = null;
+                }
+            }
+
+            dragElement6(document.getElementById("popupREADME"));
+
+            function dragElement6(elmnt) {
+                var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+                if (document.getElementById(elmnt.id + "header")) {
+                    /* if present, the header is where you move the DIV from:*/
+                    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+                } else {
+                    /* otherwise, move the DIV from anywhere inside the DIV:*/
+                    elmnt.onmousedown = dragMouseDown;
+                }
+
+                function dragMouseDown(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    // get the mouse cursor position at startup:
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    document.onmouseup = closeDragElement;
+                    // call a function whenever the cursor moves:
+                    document.onmousemove = elementDrag;
+                }
+
+                function elementDrag(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    // calculate the new cursor position:
+                    pos1 = pos3 - e.clientX;
+                    pos2 = pos4 - e.clientY;
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    // set the element's new position:
+                    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+                }
+
+                function closeDragElement() {
+                    /* stop moving when mouse button is released:*/
+                    document.onmouseup = null;
+                    document.onmousemove = null;
+                }
+            }
+
+
+            var closeInfoPOPUP = document.getElementById("closePopup");
+            var miniInfoPOPUOP = document.getElementById("minimizePopup");
+            var maxInfoPOPUP = document.getElementById("maxPopUp");
+
+            var dragPOPUP1 = document.getElementById("popupAboutme");
+            var dragPOPUP2 = document.getElementById("popupY1Y2Y3");
+            var dragPOPUP3 = document.getElementById("popupFinalYrProject");
+            var dragPOPUP4 = document.getElementById("popupGCSE");
+            var dragPOPUP5 = document.getElementById("popupALEVEL");
+
+            var aboutMeIMG = document.getElementById("aboutmeIMG");
+            var Y1Y2Y3IMG = document.getElementById("y1y2y3IMG");
+            var FYPIMG = document.getElementById("FYPIMG");
+            var GCSEIMG = document.getElementById("gcseIMG");
+            var ALEVELIMG = document.getElementById("alevelIMG");
+
+            
+            closeInfoPOPUP.addEventListener("click", function(){
+                dragPOPUP1.style.display = "none";
+                dragPOPUP2.style.display = "none";
+                dragPOPUP3.style.display = "none";
+                dragPOPUP4.style.display = "none";
+                dragPOPUP5.style.display = "none";
+            });
+
+            miniInfoPOPUOP.addEventListener("click", function(){
+                aboutMeIMG.style.display = "none";
+                Y1Y2Y3IMG.style.display = "none";
+                FYPIMG.style.display = "none";
+                GCSEIMG.style.display = "none";                
+                ALEVELIMG.style.display = "none"; 
+            });
+
+            maxInfoPOPUP.addEventListener("click", function(){
+                aboutMeIMG.style.display = "block";
+                Y1Y2Y3IMG.style.display = "block";
+                FYPIMG.style.display = "block";
+                GCSEIMG.style.display = "block";
+                ALEVELIMG.style.display = "block"; 
+            });
 
 
         </script>
