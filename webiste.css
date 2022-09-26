@@ -600,6 +600,7 @@ table th:last-child {
     color: rgb(74, 74, 74);
     font-size: 0.8rem;
     padding: 10%;
+
 }
 
 .title-bar-controls-Update {
@@ -669,6 +670,52 @@ table th:last-child {
 
 
 /*------------------------------------------------CONTACT------------------------------------------------*/
+
+#contactContainer #contactContainer_area{
+    height: 90vh;
+    
+}
+
+#contactInfoTextCol #contactImgCol{
+    height: 90vh;
+    padding: 12px;
+}
+
+#contactImg{
+
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+ 
+}
+
+.contactFancyFont{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 9vh;
+
+}
+#contactInfoTextCol{
+    text-align:center;
+
+
+}
+
+p.contactLinksDetails a{
+    text-decoration: none;
+    color: black;
+}
+
+p.contactLinksDetails a:hover{
+    text-decoration: none;
+    color: rgb(227, 84, 40);
+    font-weight: bold;
+}
+
+
+
 
 
 /*------------------------------------------------CODE------------------------------------------------*/

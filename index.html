@@ -15,6 +15,9 @@
 
     <body class="d-flex flex-column min-vh-100">
 
+        <!-- if you are inspecting element, you are close to finding this popup easter egg!! hint: keep an eye on the time, you don't want to stay up all night... -->
+        <!--  -->
+        <!--  -->
         <div id="popupFrank" class="rounded">
             <div id="mydivheader" class="rounded-top">
                 <div class="title-bar-controls">
@@ -52,7 +55,13 @@
 
         <div  id="welcome" class="container-fluid">
             <div id="welcome_row" class="row border-bottom bottom-black">
-                <div id="welcomeLeftBox" class="col-sm-6 col-md-8 col-lg-8 order-1 ">Miguel Divo</div>
+                <div id="welcomeLeftBox" class="col-sm-6 col-md-8 col-lg-8 order-1 ">
+                    Welcome, page is still under development but still feel free to explore what there is right now.
+                    <br>
+                    Come back in the near future to see a more refurbished page.
+                    <br>
+                    Thanks for stopping by :)
+                </div>
 
                 <div class="col-sm-6 col-md-4 col-lg-4 order-2">
 
@@ -61,7 +70,10 @@
                     <div class="row ">
                         <div id="hellotimer_background" class="col-sm-6 col-md-6 col-lg-6 order-1">
                             <div id="MyClockDisplay" class="clock d-flex align-items-center justify-content-center" onload="showTime()"></div> 
-
+                            <!--  -->
+                            <!--  -->
+                            <!-- you're on the right track hint: my script says you should look further down this file -->
+                            <!--  -->
                         </div>
                     </div>
                     <div id="welcomeUser" class="row">
@@ -149,7 +161,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" 
         integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 
-
+        <!-- you found the script!!! but which js code controls the time? -->
         <script type="text/javascript" >
 
             //frank popup
@@ -218,7 +230,11 @@
 
 
 
+
             //Clock functionality
+            // ooooooffffffff it is getting pretty hot now. dont worry i'll tell u what you need to do to get the pop up easter egg cause you're probably thinking its some huge thing cause of this easter egg hunt
+            //or maybe im lying and it is something so crazy and cool
+            //check the nect comments down bellow for the easter egg
             function showTime(){
                 var date = new Date();
                 var h = date.getHours(); // 0 - 23
@@ -226,9 +242,6 @@
                 var s = date.getSeconds(); // 0 - 59
                 var session = "AM";
                 
-                // if(h == 0){
-                //     h = 12;
-                // }
 
                 if(h >= 12){
                     session = 'PM';
@@ -246,7 +259,19 @@
                 
                 setTimeout(showTime, 1000);
 
-                if(h==13 && m==36 && s==10){
+                //OVER HERE
+                //so bascially if you want to see the easter egg popup, you need to be on the website's home page before 10:49PM, not a second after that.
+                //but if you cant be asked to do that later change the time to a minute after your current time 
+                //e.g. youre current time is 14:32:00
+                //change this line:
+                // if (h==22 && m==49 && s==00){
+                //change it to
+                // if (h==14 && m==33 && s==10){
+                //then just wait a minute and it should appear
+                //well done you coded something, something so crazy you wont believe what the popup is so now your adrenaline is out of this world!!
+                //NOTE: NO NEED TO REFRESH PAGE AFTER DOING THE TIME CHANGE, AS REFRESHING THE PAGE WILL SET IT BACK TO THE DEFAULT TIME
+
+                if(h==22 && m==49 && s==00){
                     dragPOPUP.style.display = "block";
                 }
             }
