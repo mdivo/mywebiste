@@ -395,6 +395,15 @@ table th:last-child {
     height: 90vh;
 }
 
+#infoFolder_area{
+    background-image: url(infoPageResources/infoBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    transition: all 0.3s;
+    height: 90vh;
+}
+
+
 #infoTable td {
 	border-left: none;
 
